@@ -31,7 +31,7 @@ if len(sys.argv) != 3:
     print("Usage updateLinesInfo.py <api_key> <output_dir>")
     sys.exit(2)
 
-api_key = sys.argv[1]
+api_key = "f295609e777a495fa0c9714ce8f1ada2"
 output_dir = sys.argv[2]
 headers = {"api_key":api_key, "Accept":"application/json"}
 
